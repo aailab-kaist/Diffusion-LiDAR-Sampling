@@ -5,6 +5,8 @@
 
 **Resources: [paper](https://arxiv.org/pdf/2602.03211)**  <br>
 
+**ToDo: Add SDXL/FLUX backbones**
+
 ## Overview
 Lookahead Sample Reward Guidance (LiDAR) is a test-time scaling method for diffusion model reward alignment. The performance increases with:
 1. Higher lookahead accuracy (`num_inference_steps` $\uparrow$ in phase 1)

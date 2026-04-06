@@ -6,7 +6,8 @@ Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diff
 | [paper](https://arxiv.org/pdf/2602.03211) |  <br>
 
 ## Overview
-![Teaser image](./figures/Figure1.PNG)
+![Teaser image](./figures/figure_overview_lookahead.png)
+![Teaser image](./figures/figure_overview_lidar.png)
 
 ### Phase 1) Lookahead sampling and reward annotation
 ```

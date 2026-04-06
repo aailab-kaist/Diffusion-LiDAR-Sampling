@@ -1,11 +1,15 @@
 # Diffusion-LiDAR-Sampling 
-Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models (LiDAR, Under review)
+**Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models (LiDAR, Under review)**
 
-**[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Donghyeok Shin, Byeonghu Na, Minsang Park, Richard Lee Kim, and Il-Chul Moon**   
+**Authors: [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Donghyeok Shin, Byeonghu Na, Minsang Park, Richard Lee Kim, and Il-Chul Moon**   
 
-| [paper](https://arxiv.org/pdf/2602.03211) |  <br>
+**Resources: [paper](https://arxiv.org/pdf/2602.03211)**  <br>
 
 ## Overview
+Lookahead Sample Reward Guidance (LiDAR) is a test-time scaling method for diffusion model reward alignment. The performance increases with:
+1. Higher lookahead accuracy (`num_inference_steps` $\uparrow$ in phase 1)
+2. More lookahead samples (`num_particles` $\uparrow$ in phase 1)
+
 ![Teaser image](./figures/performance_overview.PNG)
 
 
@@ -16,7 +20,7 @@ python lookahead_sampling.py --seed=100 --num_particles=50 --num_inference_steps
 ![Teaser image](./figures/figure_overview_lookahead.png)
 ### Phase 2) LiDAR sampling for target reward-tilted distribution
 ```
-python LiDAR_sampling.py --use_rag --scale=12.5 --resample_t_end=400 --lookahead_path=100_50_5 --save_individual_images
+python LiDAR_sampling.py --use_rag --scale=12.5 --resample_t_end=200 --lookahead_path=100_50_5 --save_individual_images
 ```
 ![Teaser image](./figures/figure_overview_lidar.png)
 

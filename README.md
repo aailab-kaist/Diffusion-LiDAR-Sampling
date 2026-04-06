@@ -28,10 +28,10 @@ python LiDAR_sampling.py --use_rag --scale=12.5 --resample_t_end=200 --lookahead
 
 ## Acknowledgements
 This codebase builds upon and is inspired by:
-- Diffusers: https://github.com/huggingface/diffusers
-- ImageReward: https://github.com/THUDM/ImageReward
-- FK-Diffusion-Steering: https://github.com/zacharyhorvitz/Fk-Diffusion-Steering
-- DATE: https://github.com/aailab-kaist/DATE
+- **Diffusers**: https://github.com/huggingface/diffusers
+- **ImageReward**: https://github.com/THUDM/ImageReward
+- **FK-Diffusion-Steering**: https://github.com/zacharyhorvitz/Fk-Diffusion-Steering
+- **DATE**: https://github.com/aailab-kaist/DATE
 
 
 ## Citation

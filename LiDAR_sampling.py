@@ -129,7 +129,7 @@ def main(args):
     average_time = 0
 
     if args.use_rag:
-        lookaheads = gen_lookahead_samples("100_50_5",args.top_k)
+        lookaheads = gen_lookahead_samples(args.lookahead_path,args.top_k)
 
 
     for prompt_idx, item in enumerate(tqdm(prompt_data)):
@@ -290,6 +290,8 @@ def get_args():
 
     parser.add_argument("--max_prompt", type=int, default=1000)
     parser.add_argument("--reward_type", type=str, choices=["ImageReward", "Clip-Score-only", "HumanPreference", "AS", "mix"], default="ImageReward")
+
+    parser.add_argument("--lookahead_path", type=str, default="100_50_5")
 
     ## FK redefine
     parser.add_argument("--FK_lmbda", type=float, default=10.0)

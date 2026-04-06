@@ -6,18 +6,19 @@ Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diff
 | [paper](https://arxiv.org/pdf/2602.03211) |  <br>
 
 ## Overview
-![Teaser image](./figures/figure_overview_lookahead.png)
-![Teaser image](./figures/figure_overview_lidar.png)
+![Teaser image](./figures/performance_overview.PNG)
+
 
 ### Phase 1) Lookahead sampling and reward annotation
 ```
 python lookahead_sampling.py --seed=100 --num_particles=50 --num_inference_steps=5 --save_individual_images=True
 ```
+![Teaser image](./figures/figure_overview_lookahead.png)
 ### Phase 2) LiDAR sampling for target reward-tilted distribution
 ```
 python LiDAR_sampling.py --use_rag --scale=12.5 --resample_t_end=400 --lookahead_path=100_50_5 --save_individual_images
 ```
-
+![Teaser image](./figures/figure_overview_lidar.png)
 
 ## Acknowledgements
 This codebase builds upon and is inspired by:

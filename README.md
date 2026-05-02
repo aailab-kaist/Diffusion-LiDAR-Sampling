@@ -1,4 +1,4 @@
-# [Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models](https://arxiv.org/pdf/2602.03211) (ICML 2026 Spotlight) 
+# [ICML 2026 Spotlight] [Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models](https://arxiv.org/pdf/2602.03211) 
 
 **Authors: [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Donghyeok Shin, Byeonghu Na, Minsang Park, Richard Lee Kim, and Il-Chul Moon**   
 

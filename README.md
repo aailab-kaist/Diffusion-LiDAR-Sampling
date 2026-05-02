@@ -1,9 +1,6 @@
-# Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models (ICML 2026 Spotlight) 
-**Official repo for Diffusion-LiDAR-Sampling**
+# [Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models](https://arxiv.org/pdf/2602.03211) (ICML 2026 Spotlight) 
 
 **Authors: [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Donghyeok Shin, Byeonghu Na, Minsang Park, Richard Lee Kim, and Il-Chul Moon**   
-
-**Resources: [paper](https://arxiv.org/pdf/2602.03211)**  <br>
 
 **ToDo: Add SDXL/FLUX backbones**
 

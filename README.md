@@ -1,5 +1,5 @@
 # Diffusion-LiDAR-Sampling (ICML 2026 Spotlight) 
-**Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models (LiDAR, Under review)**
+**Official repo for Lookahead Sample Reward Guidance for Test-Time Scaling of Diffusion Models**
 
 **Authors: [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/), Donghyeok Shin, Byeonghu Na, Minsang Park, Richard Lee Kim, and Il-Chul Moon**   
 
